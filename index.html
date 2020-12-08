@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+
+    <title>Hi, I'm Nicolás Posa</title>
+  </head>
+  <body>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#Home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#me">Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Skills">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Courses">Courses</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <scroll-container>
+      <scroll-page id="Home">
+        <div class="container-fluid home">
+          <div class="area">
+            <ul class="circles">
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </scroll-page>
+      <scroll-page id="me">
+        <div class="container-fluid">
+          <div class="cont-des" id="Me">
+            <div class="child">
+              <div class="img">
+                <img src="" alt="" />
+              </div>
+              <div class="description">
+                <h1 class="tittle-des">Nicolás Posa</h1>
+                <p class="tex-des">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Earum, labore harum eos aperiam temporibus deserunt illo
+                  exercitationem? Eaque deleniti ex, velit quo magnam dolor
+                  sequi nulla esse in iusto accusamus.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </scroll-page>
+      <scroll-page id="Skills">
+        <div class="container-fluid contenedor">
+          <h1>Skills</h1>
+          <div class="row fila container-sm">
+            <div class="col-6 col-md-4 columna">
+              <img src="{htmlImg}" class="rounded mx-auto d-block" alt="" />
+              <h3 class="text-center">HTML 5</h3>
+            </div>
+            <div class="col-6 col-md-4 columna">
+              <img src="{jsImg}" class="rounded mx-auto d-block" alt="" />
+              <h3 class="text-center">JavaScript</h3>
+            </div>
+            <div class="col-6 col-md-4 columna">
+              <img src="{reactjs}" class="rounded mx-auto d-block" alt="" />
+              <h3 class="text-center">React JS</h3>
+            </div>
+            <div class="col-6 col-md-4 columna">
+              <img src="{cssImg}" class="rounded mx-auto d-block" alt="" />
+              <h3 class="text-center">CSS 3</h3>
+            </div>
+            <div class="col-6 col-md-4 columna">
+              <img
+                src="{bootstrapImg}"
+                class="rounded mx-auto d-block"
+                alt=""
+              />
+              <h3 class="text-center">Bootstrap</h3>
+            </div>
+            <div class="col-6 col-md-4 columna">
+              <img src="{typeImg}" class="rounded mx-auto d-block" alt="" />
+              <h3 class="text-center">TypeScript</h3>
+            </div>
+            <div class="col-6 col-md-4 columna">
+              <img src="{gitImg}" class="rounded mx-auto d-block" alt="" />
+              <h3 class="text-center">Git and GitHub</h3>
+            </div>
+            <div class="col-6 col-md-4 columna">
+              <img src="{sass}" class="rounded mx-auto d-block" alt="" />
+              <h3 class="text-center">Sass</h3>
+            </div>
+            <div class="col-6 col-md-4 columna">
+              <img src="{webpack}" class="rounded mx-auto d-block" alt="" />
+              <h3 class="text-center">Webpack</h3>
+            </div>
+          </div>
+        </div>
+      </scroll-page>
+      <scroll-page id="Courses">
+        <div class="contenedor-courses">
+          <h1 class="tittle-course">Aproved Courses</h1>
+          <div class="row row-courses">
+            <div class="col-6 col-md-4 p-0">
+              <div class="card">
+                <div class="card-content">
+                  <img src="{jspro}" alt="" />
+                  <div class="text">
+                    <h4>Curso Profesional de JavaScript</h4>
+                    <p class="p-courses">Platzi-2019</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-6 col-md-4 p-0">
+              <div class="card">
+                <div class="card-content">
+                  <img src="{reactesc}" alt="" />
+                  <div class="text">
+                    <h4>Curso Práctico de React JS</h4>
+                    <p class="p-courses">Platzi-2020</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-6 col-md-4 p-0">
+              <div class="card">
+                <div class="card-content">
+                  <img src="{asyncImg}" alt="" />
+                  <div class="text">
+                    <h4>Curso de asincronismo con JavaScript</h4>
+                    <p class="p-courses">Platzi-2020</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-6 col-md-4 p-0">
+              <div class="card">
+                <div class="card-content">
+                  <img src="{responsive}" alt="" />
+                  <div class="text">
+                    <h4>Curso de Responsive Design</h4>
+                    <p class="p-courses">Platzi-2020</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-6 col-md-4 p-0">
+              <div class="card">
+                <div class="card-content">
+                  <img src="{backend}" alt="" />
+                  <div class="text">
+                    <h4>Curso de Backend con Node</h4>
+                    <p class="p-courses">Platzi-2020</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-6 col-md-4 p-0">
+              <div class="card">
+                <div class="card-content">
+                  <img src="{react}" alt="" />
+                  <div class="text">
+                    <h4>Curso de React.js</h4>
+                    <p class="p-courses">Platzi-2020</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-6 col-md-4 p-0">
+              <div class="card">
+                <div class="card-content">
+                  <img src="{fundamentosjs}" alt="" />
+                  <div class="text">
+                    <h4>Fundamentos de JavaScript</h4>
+                    <p class="p-courses">Platzi-2020</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-6 col-md-4 p-0">
+              <div class="card">
+                <div class="card-content">
+                  <img src="{fundamentosnode}" alt="" />
+                  <div class="text">
+                    <h4>Curso de Fundamentos de Node.js</h4>
+                    <p class="p-courses">Platzi-2020</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-6 col-md-4 p-0">
+              <div class="card">
+                <div class="card-content">
+                  <img src="{redux}" alt="" />
+                  <div class="text">
+                    <h4>Curso de React Router y Redux</h4>
+                    <p class="p-courses">Platzi-2020</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-6 col-md-4 p-0">
+              <div class="card">
+                <div class="card-content">
+                  <img src="{ecmascript}" alt="" />
+                  <div class="text">
+                    <h4>Curso de ECMAScript 6+</h4>
+                    <p class="p-courses">Platzi-2020</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-6 col-md-4 p-0">
+              <div class="card">
+                <div class="card-content">
+                  <img src="{desarrollo}" alt="" />
+                  <div class="text">
+                    <h4>Curso de Desarrollo Web Online</h4>
+                    <p class="p-courses">Platzi-2018</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-6 col-md-4 p-0">
+              <div class="card">
+                <div class="card-content">
+                  <img src="{posicionamiento}" alt="" />
+                  <div class="text">
+                    <h4>Curso de SEO: Posicionamiento en buscadores</h4>
+                    <p class="p-courses">Platzi-2018</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </scroll-page>
+      <scroll-page id="Projects">
+        <div class="contendor-projects">
+          <div class="contenedor-tittle">
+            <h1 class="tittle-p">Some Projects</h1>
+            <div class="row row-courses">
+              <div class="col-6 col-md-4 p-0">
+                <div class="con-p">
+                  <div class="project-content">
+                    <a
+                      target="_blank"
+                      rel="noreferrer"
+                      href="https://nicoposa1.github.io/Bootstrap.github.io/"
+                    >
+                      <figure>
+                        <img src="{project1}" class="project-image" alt="" />
+                      </figure>
+                      <div class="con-text">
+                        <h4>Platzi Badges</h4>
+                        <p>Bootstrap css</p>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-6 col-md-4 p-0">
+                <div class="con-p">
+                  <div class="project-content">
+                    <a
+                      href="http://opconstrucciones.com/"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <figure>
+                        <img src="{project2}" class="project-image" alt="" />
+                      </figure>
+                      <div class="con-text">
+                        <h4>OP Construcciones</h4>
+                        <p>Bootstrap css</p>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-6 col-md-4 p-0">
+                <div class="con-p">
+                  <div class="project-content">
+                    <a
+                      href="https://nicoposa1.github.io/OPConstruccioness.github.io/"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <figure>
+                        <img src="{project3}" class="project-image" alt="" />
+                      </figure>
+                      <div class="con-text">
+                        <h4>OP Construcciones</h4>
+                        <p>HTML css JS</p>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-6 col-md-4 p-0">
+                <div class="con-p">
+                  <div class="project-content">
+                    <a
+                      href="https://nicoposa1.github.io/proyectoDeJavaSript/"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <figure>
+                        <img src="{project4}" class="project-image" alt="" />
+                      </figure>
+                      <div class="con-text">
+                        <h4>Simon says</h4>
+                        <p>HTML css JS</p>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-6 col-md-4 p-0">
+                <div class="con-p">
+                  <div class="project-content">
+                    <a
+                      target="_blank"
+                      rel="noreferrer"
+                      href="https://nicoposa1.github.io/ProyectoResponsive/"
+                    >
+                      <figure>
+                        <img src="{project5}" class="project-image" alt="" />
+                      </figure>
+                      <div class="con-text">
+                        <h4>Personal web</h4>
+                        <p>HTML CSS JS</p>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-6 col-md-4 p-0">
+                <div class="con-p">
+                  <div class="project-content">
+                    <a
+                      target="_blank"
+                      rel="noreferrer"
+                      href="https://nicoposa1.github.io/ProyectoResponsive/"
+                    >
+                      <figure>
+                        <img src="{project5}" class="project-image" alt="" />
+                      </figure>
+                      <div class="con-text">
+                        <h4>Petgram</h4>
+                        <p>React Styled-component</p>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </scroll-page>
+      <scroll-page id="Contact">
+        <div class="container-fluid contact">
+          <div class="contact-tittle">
+            <h1>Contact</h1>
+          </div>
+          <div class="cv">
+            <a
+              href="https://drive.google.com/file/d/1aLTJp1fiDU8CGsnrmrc2wn166ZgtVDT0/view?usp=sharing"
+              target="_blank"
+              class="anchor"
+              rel="noreferrer"
+            >
+              <img src="{cv}" alt="" />
+              <h3>See my CV</h3>
+            </a>
+          </div>
+          <div class="cv">
+            <a
+              href="mailto:nicoposa57@gmail.com"
+              target="_blank"
+              class="anchor"
+              rel="noreferrer"
+            >
+              <img src="{email}" alt="" />
+              <h3>nicoposa57@gmail.com</h3>
+            </a>
+          </div>
+          <div class="social-media">
+            <div class="social">
+              <a
+                href="https://www.linkedin.com/in/nicolasposa/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img src="{linkedin}" alt="" />
+                <h3>Linkedin</h3>
+              </a>
+            </div>
+            <div class="social">
+              <a
+                href="https://github.com/Nicoposa1"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img src="{github}" alt="" />
+                <h3>GitHub</h3>
+              </a>
+            </div>
+            <div class="social">
+              <a
+                href="https://dev.to/nicoposa1"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img src="{dev}" alt="" />
+                <h3>Dev.to</h3>
+              </a>
+            </div>
+            <div class="social">
+              <a
+                href="https://twitter.com/nicoposa1"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img src="{twitter}" alt="" />
+                <h3>Twitter</h3>
+              </a>
+            </div>
+          </div>
+        </div>
+      </scroll-page>
+    </scroll-container>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
