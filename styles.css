@@ -1,3 +1,7 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
 #navbarNav {
   justify-content: center;
 }
@@ -28,6 +32,20 @@
 
 .Nav.Link {
   scroll-behavior: smooth;
+}
+
+/* home */
+
+.home-title {
+  font-size: calc(1.325rem + 0.9vw);
+  color: #fff;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  position: absolute;
+  text-align: center;
 }
 
 .home {
@@ -258,13 +276,13 @@ img {
 
 .contenedor {
   background: #2a19cf;
-  height: 100vh;
+  height: 100%;
   margin: 0%;
   padding-bottom: 80px;
 }
 img {
   border-radius: 0%;
-  height: 100px;
+  height: 50px;
 }
 .card {
   background-color: transparent;
@@ -294,6 +312,13 @@ h3 {
 .card-content {
   max-width: 150px;
   box-shadow: 0px 0 1px 1px #e6e5e9;
+}
+
+.anchor-course {
+  text-decoration: none;
+}
+.anchor-course:hover {
+  text-decoration: underline #0f0f0f;
 }
 .p-courses {
   color: #0f0f0f;
@@ -330,6 +355,7 @@ h4 {
 .tittle-course {
   color: #0f0f0f;
   margin-top: 25px;
+  text-decoration: #0f0f0f;
 }
 
 .row-courses {
@@ -339,6 +365,9 @@ h4 {
 /* Projects */
 .contendor-projects {
   padding-top: 3rem;
+}
+.Anchor-project {
+  text-decoration: underline #0f0f0f;
 }
 
 .tittle-p {
@@ -389,6 +418,11 @@ h4 {
   text-align: center;
 }
 
+.con-text {
+  text-align: center;
+  color: #0f0f0f;
+}
+
 /* Contact */
 
 .contact {
@@ -403,6 +437,19 @@ h4 {
 .cv {
   display: flex;
   justify-content: center;
+}
+
+.cv a {
+  text-decoration: none;
+}
+.cv a:hover {
+  text-decoration: underline #fff;
+}
+.social-media a {
+  text-decoration: none;
+}
+.social-media a:hover {
+  text-decoration: underline #fff;
 }
 
 .social-media {

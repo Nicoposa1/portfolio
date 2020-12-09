@@ -13,13 +13,20 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="./styles.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
 
     <title>Hi, I'm Nicolás Posa</title>
   </head>
   <body>
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">Navbar</a>
+        <a class="navbar-brand" href="#Home"
+          ><img src="./images/np.png" alt="Nicolás Posa Logo"
+        /></a>
         <button
           class="navbar-toggler"
           type="button"
@@ -57,6 +64,7 @@
     </nav>
     <scroll-container>
       <scroll-page id="Home">
+        <h2 class="home-title">Hi, Im Nicolás Posa a frontend developer</h2>
         <div class="container-fluid home">
           <div class="area">
             <ul class="circles">
@@ -79,10 +87,10 @@
           <div class="cont-des" id="Me">
             <div class="child">
               <div class="img">
-                <img src="" alt="" />
+                <img src="./images/profile.jpg" alt="" />
               </div>
               <div class="description">
-                <h1 class="tittle-des">Nicolás Posa</h1>
+                <h1 class="tittle-des">About Me</h1>
                 <p class="tex-des">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Earum, labore harum eos aperiam temporibus deserunt illo
@@ -96,59 +104,97 @@
       </scroll-page>
       <scroll-page id="Skills">
         <div class="container-fluid contenedor">
-          <h1>Skills</h1>
+          <h1 class="pt-5">Skills</h1>
           <div class="row fila container-sm">
             <div class="col-6 col-md-4 columna">
-              <img src="{htmlImg}" class="rounded mx-auto d-block" alt="" />
+              <img
+                src="./images/html.svg"
+                class="rounded mx-auto d-block"
+                alt=""
+              />
               <h3 class="text-center">HTML 5</h3>
             </div>
             <div class="col-6 col-md-4 columna">
-              <img src="{jsImg}" class="rounded mx-auto d-block" alt="" />
+              <img
+                src="./images/javascript.svg"
+                class="rounded mx-auto d-block"
+                alt=""
+              />
               <h3 class="text-center">JavaScript</h3>
             </div>
             <div class="col-6 col-md-4 columna">
-              <img src="{reactjs}" class="rounded mx-auto d-block" alt="" />
+              <img
+                src="./images/react.svg"
+                class="rounded mx-auto d-block"
+                alt=""
+              />
               <h3 class="text-center">React JS</h3>
             </div>
             <div class="col-6 col-md-4 columna">
-              <img src="{cssImg}" class="rounded mx-auto d-block" alt="" />
+              <img
+                src="./images/css3.svg"
+                class="rounded mx-auto d-block"
+                alt=""
+              />
               <h3 class="text-center">CSS 3</h3>
             </div>
             <div class="col-6 col-md-4 columna">
               <img
-                src="{bootstrapImg}"
+                src="./images/bootstrap.svg"
                 class="rounded mx-auto d-block"
                 alt=""
               />
               <h3 class="text-center">Bootstrap</h3>
             </div>
             <div class="col-6 col-md-4 columna">
-              <img src="{typeImg}" class="rounded mx-auto d-block" alt="" />
+              <img
+                src="./images/typescript.svg"
+                class="rounded mx-auto d-block"
+                alt=""
+              />
               <h3 class="text-center">TypeScript</h3>
             </div>
             <div class="col-6 col-md-4 columna">
-              <img src="{gitImg}" class="rounded mx-auto d-block" alt="" />
+              <img
+                src="./images/git.svg"
+                class="rounded mx-auto d-block"
+                alt=""
+              />
               <h3 class="text-center">Git and GitHub</h3>
             </div>
             <div class="col-6 col-md-4 columna">
-              <img src="{sass}" class="rounded mx-auto d-block" alt="" />
+              <img
+                src="./images/sass.svg"
+                class="rounded mx-auto d-block"
+                alt=""
+              />
               <h3 class="text-center">Sass</h3>
             </div>
             <div class="col-6 col-md-4 columna">
-              <img src="{webpack}" class="rounded mx-auto d-block" alt="" />
-              <h3 class="text-center">Webpack</h3>
+              <img
+                src="./images/Gatsby.svg"
+                class="rounded mx-auto d-block"
+                alt=""
+              />
+              <h3 class="text-center">Gatsby</h3>
             </div>
           </div>
         </div>
       </scroll-page>
       <scroll-page id="Courses">
         <div class="contenedor-courses">
-          <h1 class="tittle-course">Aproved Courses</h1>
+          <a
+            class="anchor-course"
+            href="https://platzi.com/p/Nicoposa1/"
+            target="_blank"
+          >
+            <h1 class="tittle-course">Approved Courses</h1>
+          </a>
           <div class="row row-courses">
             <div class="col-6 col-md-4 p-0">
               <div class="card">
                 <div class="card-content">
-                  <img src="{jspro}" alt="" />
+                  <img src="./images/diplomas/jspro.png" alt="" />
                   <div class="text">
                     <h4>Curso Profesional de JavaScript</h4>
                     <p class="p-courses">Platzi-2019</p>
@@ -159,7 +205,7 @@
             <div class="col-6 col-md-4 p-0">
               <div class="card">
                 <div class="card-content">
-                  <img src="{reactesc}" alt="" />
+                  <img src="./images/diplomas/reactesc.png" alt="" />
                   <div class="text">
                     <h4>Curso Práctico de React JS</h4>
                     <p class="p-courses">Platzi-2020</p>
@@ -170,7 +216,7 @@
             <div class="col-6 col-md-4 p-0">
               <div class="card">
                 <div class="card-content">
-                  <img src="{asyncImg}" alt="" />
+                  <img src="./images/diplomas/asyncImg.png" alt="" />
                   <div class="text">
                     <h4>Curso de asincronismo con JavaScript</h4>
                     <p class="p-courses">Platzi-2020</p>
@@ -181,7 +227,7 @@
             <div class="col-6 col-md-4 p-0">
               <div class="card">
                 <div class="card-content">
-                  <img src="{responsive}" alt="" />
+                  <img src="./images/diplomas/responsive.png" alt="" />
                   <div class="text">
                     <h4>Curso de Responsive Design</h4>
                     <p class="p-courses">Platzi-2020</p>
@@ -192,7 +238,7 @@
             <div class="col-6 col-md-4 p-0">
               <div class="card">
                 <div class="card-content">
-                  <img src="{backend}" alt="" />
+                  <img src="./images/diplomas/backend.png" alt="" />
                   <div class="text">
                     <h4>Curso de Backend con Node</h4>
                     <p class="p-courses">Platzi-2020</p>
@@ -203,7 +249,7 @@
             <div class="col-6 col-md-4 p-0">
               <div class="card">
                 <div class="card-content">
-                  <img src="{react}" alt="" />
+                  <img src="./images/diplomas/react.png" alt="" />
                   <div class="text">
                     <h4>Curso de React.js</h4>
                     <p class="p-courses">Platzi-2020</p>
@@ -214,7 +260,7 @@
             <div class="col-6 col-md-4 p-0">
               <div class="card">
                 <div class="card-content">
-                  <img src="{fundamentosjs}" alt="" />
+                  <img src="./images/diplomas/fundamentosjs.png" alt="" />
                   <div class="text">
                     <h4>Fundamentos de JavaScript</h4>
                     <p class="p-courses">Platzi-2020</p>
@@ -225,7 +271,7 @@
             <div class="col-6 col-md-4 p-0">
               <div class="card">
                 <div class="card-content">
-                  <img src="{fundamentosnode}" alt="" />
+                  <img src="./images/diplomas/fundamentosnode.png" alt="" />
                   <div class="text">
                     <h4>Curso de Fundamentos de Node.js</h4>
                     <p class="p-courses">Platzi-2020</p>
@@ -236,7 +282,7 @@
             <div class="col-6 col-md-4 p-0">
               <div class="card">
                 <div class="card-content">
-                  <img src="{redux}" alt="" />
+                  <img src="./images/diplomas/redux.png" alt="" />
                   <div class="text">
                     <h4>Curso de React Router y Redux</h4>
                     <p class="p-courses">Platzi-2020</p>
@@ -247,7 +293,7 @@
             <div class="col-6 col-md-4 p-0">
               <div class="card">
                 <div class="card-content">
-                  <img src="{ecmascript}" alt="" />
+                  <img src="./images/diplomas/ecmascript.png" alt="" />
                   <div class="text">
                     <h4>Curso de ECMAScript 6+</h4>
                     <p class="p-courses">Platzi-2020</p>
@@ -258,7 +304,7 @@
             <div class="col-6 col-md-4 p-0">
               <div class="card">
                 <div class="card-content">
-                  <img src="{desarrollo}" alt="" />
+                  <img src="./images/diplomas/desarrollo.png" alt="" />
                   <div class="text">
                     <h4>Curso de Desarrollo Web Online</h4>
                     <p class="p-courses">Platzi-2018</p>
@@ -269,7 +315,7 @@
             <div class="col-6 col-md-4 p-0">
               <div class="card">
                 <div class="card-content">
-                  <img src="{posicionamiento}" alt="" />
+                  <img src="./images/diplomas/posicionamiento.png" alt="" />
                   <div class="text">
                     <h4>Curso de SEO: Posicionamiento en buscadores</h4>
                     <p class="p-courses">Platzi-2018</p>
@@ -283,18 +329,25 @@
       <scroll-page id="Projects">
         <div class="contendor-projects">
           <div class="contenedor-tittle">
-            <h1 class="tittle-p">Some Projects</h1>
-            <div class="row row-courses">
+            <a href="https://github.com/Nicoposa1" class="Anchor-project">
+              <h1 class="tittle-p">My projects</h1>
+            </a>
+            <div class="row row-courses pb-5">
               <div class="col-6 col-md-4 p-0">
                 <div class="con-p">
                   <div class="project-content">
                     <a
                       target="_blank"
                       rel="noreferrer"
+                      class="Anchor-project"
                       href="https://nicoposa1.github.io/Bootstrap.github.io/"
                     >
                       <figure>
-                        <img src="{project1}" class="project-image" alt="" />
+                        <img
+                          src="./images/project/opconstrucciones.png"
+                          class="project-image"
+                          alt=""
+                        />
                       </figure>
                       <div class="con-text">
                         <h4>Platzi Badges</h4>
@@ -311,9 +364,14 @@
                       href="http://opconstrucciones.com/"
                       target="_blank"
                       rel="noreferrer"
+                      class="Anchor-project"
                     >
                       <figure>
-                        <img src="{project2}" class="project-image" alt="" />
+                        <img
+                          src="./images/project/pb.png"
+                          class="project-image"
+                          alt=""
+                        />
                       </figure>
                       <div class="con-text">
                         <h4>OP Construcciones</h4>
@@ -330,9 +388,14 @@
                       href="https://nicoposa1.github.io/OPConstruccioness.github.io/"
                       target="_blank"
                       rel="noreferrer"
+                      class="Anchor-project"
                     >
                       <figure>
-                        <img src="{project3}" class="project-image" alt="" />
+                        <img
+                          src="./images/project/opc.png"
+                          class="project-image"
+                          alt=""
+                        />
                       </figure>
                       <div class="con-text">
                         <h4>OP Construcciones</h4>
@@ -349,9 +412,14 @@
                       href="https://nicoposa1.github.io/proyectoDeJavaSript/"
                       target="_blank"
                       rel="noreferrer"
+                      class="Anchor-project"
                     >
                       <figure>
-                        <img src="{project4}" class="project-image" alt="" />
+                        <img
+                          src="./images/project/jsgame.png"
+                          class="project-image"
+                          alt=""
+                        />
                       </figure>
                       <div class="con-text">
                         <h4>Simon says</h4>
@@ -367,10 +435,15 @@
                     <a
                       target="_blank"
                       rel="noreferrer"
+                      class="Anchor-project"
                       href="https://nicoposa1.github.io/ProyectoResponsive/"
                     >
                       <figure>
-                        <img src="{project5}" class="project-image" alt="" />
+                        <img
+                          src="./images/project/responsive.png"
+                          class="project-image"
+                          alt=""
+                        />
                       </figure>
                       <div class="con-text">
                         <h4>Personal web</h4>
@@ -386,10 +459,15 @@
                     <a
                       target="_blank"
                       rel="noreferrer"
+                      class="Anchor-project"
                       href="https://nicoposa1.github.io/ProyectoResponsive/"
                     >
                       <figure>
-                        <img src="{project5}" class="project-image" alt="" />
+                        <img
+                          src="./images/project/petgram.png"
+                          class="project-image"
+                          alt=""
+                        />
                       </figure>
                       <div class="con-text">
                         <h4>Petgram</h4>
@@ -404,7 +482,7 @@
         </div>
       </scroll-page>
       <scroll-page id="Contact">
-        <div class="container-fluid contact">
+        <div class="container-fluid contact pb-5">
           <div class="contact-tittle">
             <h1>Contact</h1>
           </div>
@@ -414,8 +492,9 @@
               target="_blank"
               class="anchor"
               rel="noreferrer"
+              class="Anchor-project"
             >
-              <img src="{cv}" alt="" />
+              <img src="./images/icons/cv.png" alt="" />
               <h3>See my CV</h3>
             </a>
           </div>
@@ -425,8 +504,9 @@
               target="_blank"
               class="anchor"
               rel="noreferrer"
+              class="Anchor-project"
             >
-              <img src="{email}" alt="" />
+              <img src="./images/icons/email.png" alt="" />
               <h3>nicoposa57@gmail.com</h3>
             </a>
           </div>
@@ -436,8 +516,9 @@
                 href="https://www.linkedin.com/in/nicolasposa/"
                 target="_blank"
                 rel="noreferrer"
+                class="Anchor-project"
               >
-                <img src="{linkedin}" alt="" />
+                <img src="./images/icons/linkedin.svg" alt="" />
                 <h3>Linkedin</h3>
               </a>
             </div>
@@ -446,8 +527,9 @@
                 href="https://github.com/Nicoposa1"
                 target="_blank"
                 rel="noreferrer"
+                class="Anchor-project"
               >
-                <img src="{github}" alt="" />
+                <img src="./images/icons/github.png" alt="" />
                 <h3>GitHub</h3>
               </a>
             </div>
@@ -456,8 +538,9 @@
                 href="https://dev.to/nicoposa1"
                 target="_blank"
                 rel="noreferrer"
+                class="Anchor-project"
               >
-                <img src="{dev}" alt="" />
+                <img src="./images/icons/dev.svg" alt="" />
                 <h3>Dev.to</h3>
               </a>
             </div>
@@ -466,8 +549,9 @@
                 href="https://twitter.com/nicoposa1"
                 target="_blank"
                 rel="noreferrer"
+                class="Anchor-project"
               >
-                <img src="{twitter}" alt="" />
+                <img src="./images/icons/twitter.svg" alt="" />
                 <h3>Twitter</h3>
               </a>
             </div>
