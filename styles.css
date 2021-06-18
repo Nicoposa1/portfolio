@@ -231,8 +231,17 @@ body {
   align-items: center;
   background-size: contain;
 }
+.porfile-img {
+  height: 100px;
+  width: 80px;
+  object-fit: cover;
+  border-radius: 50px;
+}
+.img {
+  justify-content: center;
+  display: flex;
+}
 
-.img,
 h1,
 p {
   display: flex;
@@ -261,6 +270,12 @@ img {
   }
   p {
     font-size: 1.2rem;
+  }
+  .porfile-img {
+    height: 100px;
+    width: 80px;
+    object-fit: cover;
+    border-radius: 50px;
   }
 }
 
